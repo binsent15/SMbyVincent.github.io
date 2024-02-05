@@ -1,0 +1,309 @@
+body{
+    background-image: url(lebs.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100%;
+}
+
+@keyframes fade-down {
+    0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+
+}
+
+@keyframes fade-right {
+    0%{
+        opacity: 0;
+        transform: translateX(-200px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+
+}
+
+@keyframes fade-left {
+    0%{
+        opacity: 0;
+        transform: translateY(-200px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform:translateY(px) scale(1) ;
+    }
+
+}
+
+ .contact{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 150px;
+    font-family: Agbalumo;
+    display: inline;
+    color:black;
+    cursor: pointer;
+    animation: fade-left 0.5s 0.2s backwards;
+    text-shadow: 5px 2px 10px;
+}
+
+.gallery{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 150px;
+    font-family: Agbalumo;
+    display: inline;
+    color:black;
+    cursor: pointer;
+    animation: fade-left 0.5s 0.2s backwards;
+    text-decoration: none;
+    text-shadow: 5px 2px 10px;
+}
+
+.about{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 150px;
+    font-family: Agbalumo;
+    display: inline;
+    color:black;
+    cursor: pointer;
+    animation: fade-left 0.5s 0.2s backwards;
+    text-shadow: 5px 2px 10px;
+}
+
+.home{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 290px;
+    font-family: Agbalumo;
+    display: inline;
+    color:black;
+    cursor: pointer;
+    animation: fade-left 0.5s 0.2s backwards;
+    text-shadow: 5px 2px 10px;
+    margin-top: 30px;
+}
+
+.png{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    animation: fade-left 0.5s 0.2s backwards;
+}
+
+.png2{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px;
+    
+}
+
+.png3{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px;
+}
+
+.png4{
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 10px 15px 15px;
+}
+
+.life{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    animation: fade-left 0.5s 0.2s backwards;
+}
+
+.p{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px
+}
+
+.q{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px
+}
+
+.e{
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 10px 15px 15px;
+}
+
+.cats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    animation: fade-left 0.5s 0.2s backwards;
+}
+
+.cat1{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px
+}
+
+.cat2{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px
+}
+
+.cat3{
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 10px 15px 15px;
+}
+
+.bg{
+    margin-top: 15px;
+}
+
+.box2{
+    border-radius: 25px;
+    border: 4px solid black;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-bottom: 50px;
+    animation: fade-down 0.5s 0.2s backwards;
+    box-shadow: 10px 15px 15px inset;
+}
+
+.gallery1{
+    margin-left: 585px;
+    font-family: agbalumo;
+    font-weight: bold;
+    animation: fade-left 0.5s 0.2s backwards;
+    font-size: 30px;
+    text-shadow: 5px 7px 20px;
+}
+
+.shs4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    animation: fade-left 0.5s 0.2s backwards;
+}
+
+.shs00{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    animation: fade-left 0.5s 0.2s backwards;
+}
+
+.shs1{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px
+}
+
+.shs7{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px
+}
+
+.shs8{
+    box-shadow: 10px 15px 15px;
+}
+
+.shs000{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    animation: fade-left 0.5s 0.2s backwards;
+}
+
+.s1{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px
+}
+
+.s2{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px
+}
+
+.s3{
+    box-shadow: 10px 15px 15px;
+}
+
+.balays{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    animation: fade-left 0.5s 0.2s backwards;
+    margin-bottom: 50px;
+}
+
+.balay1{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px;
+}
+
+.balay2{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px;
+}
+
+.balay3{
+    box-shadow: 10px 15px 15px;
+}
+
+.mess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    animation: fade-left 0.5s 0.2s backwards;
+}
+
+.mes1{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px;
+}
+
+.mes{
+    margin-right: 120px;
+    box-shadow: 10px 15px 15px;
+}
+
+.mes2{
+    box-shadow: 10px 15px 15px;
+}
+
+.about2{
+    font-family: agbalumo;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 5px 7px 20px black;
+    margin-left: 100px;
+
+}
+
+.contact2{
+    font-family: agbalumo;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 5px 7px 20px black;
+    margin-left: 925px;
+}

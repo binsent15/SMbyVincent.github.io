@@ -1,0 +1,148 @@
+body{
+    background-image: url(black.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 115%;
+}
+
+@keyframes fade-up {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px) scale(0.9);;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+
+}
+
+@keyframes fade-down {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+
+}
+
+.logo{
+    width: 50px;
+    animation: fade-down 0.5s 0.2s backwards;
+}
+
+
+.contact{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: Agbalumo;
+    display: inline;
+    color:white;
+    cursor: pointer;
+    animation: fade-down 0.5s 0.2s backwards;
+    text-shadow: 5px 2px 10px;
+
+}
+
+.gallery{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 60px;
+    font-family: Agbalumo;
+    display: inline;
+    color:white;
+    cursor: pointer;
+    margin-top: -500px;
+    animation: fade-down 0.5s 0.2s backwards;
+    text-shadow: 5px 2px 10px;
+}
+
+.about{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 75px;
+    font-family: Agbalumo;
+    display: inline;
+    color:white;
+    cursor: pointer;
+    animation: fade-down 0.5s 0.2s backwards;
+    text-shadow: 5px 2px 10px;
+}
+
+.name{
+    font-size: 50px;
+    font-family: agbalumo;
+    margin-left: 700px;
+    margin-top: 225px;
+    margin-bottom: -25px;
+    animation: fade-down 0.5s 0.2s backwards;
+}
+.h1{
+    font-size: 25px;
+    font-family: agbalumo;
+    font-weight: lighter;
+    margin-left: 710px;
+    margin-top: -500px;
+    animation: fade-down 0.5s 0.2s backwards;
+}
+
+.home{
+    font-size: 20px;
+    margin-left: 550px;
+    font-family: agbalumo   ;
+    display: inline;
+    color:white;
+    cursor: pointer;
+    margin-top: -1000px;
+    animation: fade-down 0.5s 0.2s backwards;
+    text-decoration: none;
+    text-shadow: 5px 2px 10px;
+}
+
+.name{
+    color:white;
+    margin-top: -200px;
+    animation: fade-down 0.5s 0.2s backwards;
+    color:white;
+}
+.h1{
+    color: white;
+    margin-top:30px;
+    animation: fade-down 0.5s 0.2s backwards;
+}
+
+.me2{
+   height: 300px;
+   width: 300px;
+   border-radius: 50%;
+   margin-top: 120px;
+   margin-left: 200px;
+   animation: fade-up 0.5s 0.2s backwards;
+   cursor: pointer;
+}
+
+.bg2{
+    margin-top: 30px;
+}
+
+.ab,button{
+    margin-left: 930px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: agbalumo;
+    background-color: black;
+    color: white;
+    border:  3px  solid;
+    border-radius: 13px;
+    cursor: pointer;
+    animation: fade-up 0.5s 0.2s backwards;
+    text-shadow: 3px 2px 10px;
+}   
